@@ -1,0 +1,16 @@
+#IDE stuff
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#package local files
+.nyc_output
+
+#packages
+node_modules
+
+#generated files
+build

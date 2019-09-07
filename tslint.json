@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "rulesDirectory": [
+    "node_modules/tslint-microsoft-contrib"
+  ],
+  "rules": {
+    "curly": true,
+    "max-line-length": [
+      false
+    ],
+    "mocha-avoid-only": true,
+    "no-console": [
+      false
+    ],
+    "no-empty-interface": false,
+    "no-unused-variable": true,
+    "object-literal-sort-keys": false
+  },
+  "jsRules": {
+    "curly": true
+  },
+  "linterOptions": {
+    "exclude": ["**/*.json"]
+  }
+}
